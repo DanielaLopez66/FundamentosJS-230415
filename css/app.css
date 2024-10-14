@@ -1,0 +1,89 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'lato','sans-serif';
+    background-color: rgb(255, 169, 212);
+}
+/*Estas propiedades son el antes y el despues de box sizing */
+*,*:before,*::after{
+    box-sizing: inherit;
+}
+
+header{
+    padding: 3rem 0;
+}
+
+header h1{
+    text-align: center;
+    color: rgb(255, 40, 123);
+    font-size: 6rem;
+}
+
+header p{
+    color: rgb(182, 118, 255);
+    text-align: center;
+    font-size: 3.2 rem;
+
+}
+
+header p a{
+    text-decoration: none ;
+    color: rgb(255, 126, 223);
+}
+
+.DOM{
+    max-width: 120rem;
+    margin: 0  auto;
+}
+
+.DOM h2{
+    color: rgb(253, 23, 111);
+    text-align: center;
+}
+
+.DOM nav a{
+    color: aliceblue;
+    font-size: 20 px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.DOM p{
+    color: rgb(107, 107, 255);
+    font-size: 20px;
+}
+
+.DOM #formulario{
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+.DOM #formulario input{
+    display:block;
+    width: 100%;
+    border: none;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.alerta{
+    padding: 1rem;
+    text-align: center;
+    color: azure;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.alerta.error{
+    background-color: rgb(255, 103, 103);
+}
+
+.alerta.exito{
+    background-color: rgb(153, 255, 70);
+}
