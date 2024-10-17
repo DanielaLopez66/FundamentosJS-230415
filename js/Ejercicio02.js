@@ -6,7 +6,7 @@ let cliente;
 console.log(`El cliente es: ${cliente}`)
 console.log(`El tipo de dato de la variable cliente es:  ${typeof (cliente)}`);
 
-cliente = "Daniela Lopez"
+cliente = "Daniela López"
 console.log(`El cliente es: ${cliente}`)
 console.log(`El tipo de dato de la variable cliente es:  ${typeof (cliente)}`);
 
