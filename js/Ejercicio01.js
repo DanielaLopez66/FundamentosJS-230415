@@ -1,4 +1,4 @@
-//Ejercicio 01 Declaracion de Variables en js
+//Ejercicio 01 Declaración de Variables en JS
 
 var miNombre = "Ana Daniela"
 var misApellidos;
@@ -8,7 +8,7 @@ var miEdad = 19;
 console.warn("--- Declaración de variables usando : VAR");
 console.log("Intentando leer las variables: ", miNombre, misApellidos);
 
-misApellidos = "Lopez Neri";
+misApellidos = "López Neri";
 console.log("Ya que ambas fueron inicializadas vuelvo a intentar leerlas ; ", miNombre, misApellidos);
 
 
